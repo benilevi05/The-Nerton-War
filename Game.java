@@ -4,7 +4,8 @@ import javax.swing.*;
 
 class Game {
     void test(){
-        SwingUtilities.invokeLater(() -> { 
+        SwingUtilities.invokeLater(() -> {
+            //TEST 
             JFrame frame = new JFrame("The Nerton War");
             JPanel mainPanel = new JPanel(new GridBagLayout());
             GridBagConstraints c = new GridBagConstraints();
