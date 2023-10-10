@@ -3,9 +3,8 @@ import java.awt.*;
 import javax.swing.*;
 
 class Game {
-    void test(){
-        SwingUtilities.invokeLater(() -> {
-            //TEST 
+    void cardTest(){
+        SwingUtilities.invokeLater(() -> { 
             JFrame frame = new JFrame("The Nerton War");
             JPanel mainPanel = new JPanel(new GridBagLayout());
             GridBagConstraints c = new GridBagConstraints();
@@ -43,6 +42,6 @@ class Game {
         });
     }
     public static void main(String[] args) {
-        new Game().test();
+        new Game().cardTest();
     }
 }
